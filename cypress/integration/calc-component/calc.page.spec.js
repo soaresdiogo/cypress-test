@@ -1,5 +1,3 @@
-const { cyan } = require("@material-ui/core/colors")
-
 describe('To do Calc', () => {
     it('Shoud return true when title of menu was correct', () => {
         cy.visit('/');
